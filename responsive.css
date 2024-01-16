@@ -54,4 +54,24 @@
         gap: 10px;
 
     }
+
+    .first-row,
+    .second-row,
+    .third-row {
+        height: auto;
+        /* Adjust height for smaller screens */
+        flex-direction: column;
+        /* Stack items vertically */
+        gap: 1em;
+        /* Adjust gap for smaller screens */
+        margin-bottom: 1em;
+        /* Adjust margin for smaller screens */
+    }
+
+    .destination-text p {
+        width: 100%;
+        /* Use full width for smaller screens */
+        margin-top: 1em;
+        /* Adjust margin for smaller screens */
+    }
 }
