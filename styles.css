@@ -280,7 +280,7 @@ main {
 }
 
 .five-img,
-.six-img{
+.six-img {
     flex-grow: 1;
 }
 
@@ -291,19 +291,201 @@ main {
 .destination-text p {
     color: rgba(19, 19, 24, 0.70);
     width: 100%;
-    /* Use 100% width for responsiveness */
     margin-top: 1.44em;
-    /* Use em for responsive margin */
 }
 
 .first-row,
 .second-row,
 .third-row {
     height: 25em;
-    /* Use em for responsive height */
     gap: 1.5em;
-    /* Use em for responsive gap */
     margin-bottom: 1.5em;
-    /* Use em for responsive margin */
 }
 
+
+/* why chose us style */
+/* Why Choose Us Section */
+.why-us-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 40px;
+}
+
+/* Section Head */
+.why-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Section Info */
+.why-info {
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+/* Why Us Cards */
+.why-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Card Styles */
+.card {
+    flex-basis: calc(33.333% - 20px);
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* newsletter */
+.newsletter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.newsletter-form {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 20px;
+    width: 100%;
+    border-radius: 1px solid #FF5400;
+}
+
+.newsletter-form h2 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.newsletter-form p {
+    color: #5A5A5D;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.newsletter-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.newsletter-form hr {
+    margin-bottom: 24px;
+}
+
+.newsletter-form input {
+    border-radius: 8px;
+    height: 52px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 0;
+    padding: 0 16px;
+}
+
+.newsletter-form input::placeholder {
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.newsletter-form button {
+    height: 52px;
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.newsletter-view {
+    position: relative;
+    border-radius: 16px;
+    width: 672px;
+    height: 422px;
+}
+
+.special-offer {
+    position: absolute;
+    bottom: 10%;
+    right: 2%;
+    border-radius: 16px;
+    background: #FF5400;
+    width: 263px;
+    height: 98px;
+    padding-top: 20px;
+    transform: rotate(-19.628deg);
+}
+
+.special-offer p,
+.special-offer h3 {
+    color: #FFF;
+    text-align: center;
+}
+
+
+
+
+
+/* footer style */
+footer {
+    background-color: rgba(19, 19, 24, 0.05);
+}
+
+.footer-section {
+    max-width: 872px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+.footer-section p {
+    color: #5A5A5D;
+    text-align: center;
+    margin: 30px auto;
+    width: 81%;
+}
+
+.footer-icon i {
+    color: #131318;
+    margin-right: 13px;
+}
+
+.copyright-section {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 800;
+}

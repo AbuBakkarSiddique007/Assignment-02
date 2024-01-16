@@ -59,19 +59,49 @@
     .second-row,
     .third-row {
         height: auto;
-        /* Adjust height for smaller screens */
         flex-direction: column;
-        /* Stack items vertically */
         gap: 1em;
-        /* Adjust gap for smaller screens */
         margin-bottom: 1em;
-        /* Adjust margin for smaller screens */
     }
 
     .destination-text p {
         width: 100%;
-        /* Use full width for smaller screens */
         margin-top: 1em;
-        /* Adjust margin for smaller screens */
+    }
+
+    .footer-section {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    .footer-section p {
+        width: 100%;
+    }
+
+    .footer-title {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-title h2 {
+        margin-bottom: 10px;
+    }
+
+    .card {
+        flex-basis: calc(100% - 20px);
+    }
+
+    .newsletter-container {
+        flex-direction: column;
+        /* Stack items vertically on small screens */
+    }
+
+    .newsletter-form {
+        width: 100%;
+        /* Full width for small screens */
     }
 }
