@@ -1,7 +1,8 @@
 @media screen and (max-width: 600px) {
 
     .header-section,
-    .our-tour {
+    .our-tour,
+    .perfect-place {
         flex-direction: column;
         align-items: center;
     }
@@ -19,7 +20,29 @@
     .select-type,
     .find-now-button,
     .newsletter-form,
-    .newsletter-view {
+    .newsletter-view,
+    .perfect-place p,
+    .perfect-place ul {
+        width: 100%;
+    }
+
+    .see-more-button {
+        margin: 10px;
+    }
+
+    .perfect-place-text {
+        padding: 10px;
+        /* Adjust the padding according to your design */
+    }
+
+    .perfect-place {
+        max-width: 100%;
+        margin: 0 10px;
+        /* Adjust the margin according to your design */
+    }
+
+    .perfect-place-text,
+    .perfect-place-video {
         width: 100%;
     }
 
