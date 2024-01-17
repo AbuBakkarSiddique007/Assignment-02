@@ -32,13 +32,11 @@
 
     .perfect-place-text {
         padding: 10px;
-        /* Adjust the padding according to your design */
     }
 
     .perfect-place {
         max-width: 100%;
         margin: 0 10px;
-        /* Adjust the margin according to your design */
     }
 
     .perfect-place-text,
@@ -124,5 +122,28 @@
         transform: none;
         position: static;
         margin-top: 20px;
+    }
+
+    .why-sction {
+        max-width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .why-section-title p {
+        width: 100%;
+    }
+
+    .why-section-row-one {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .box-one,
+    .box-two,
+    .box-third {
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 20px;
     }
 }

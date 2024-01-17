@@ -304,51 +304,131 @@ main {
 }
 
 
-/* why chose us style */
-.why-us-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 40px;
-}
-
-/* Section Head */
-.why-heading {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-/* Section Info */
-.why-info {
-    color: #555;
-    max-width: 600px;
-    margin: 0 auto 20px;
-}
-
-/* Why Us Cards */
-.why-card {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-/* Card Styles */
-.card {
-    flex-basis: calc(33.333% - 20px);
-    max-width: 300px;
+/* why choose us */
+.why-sction {
+    max-width: 1250px;
+    height: 900px;
+    margin: auto;
     padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
 }
 
-.card img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
+.why-section-title {
+    height: 150px;
+    text-align: center;
 }
+
+.why-section-title h1 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
+.why-section-title p {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+.why-section-row-one {
+    display: flex;
+    gap: 30px;
+
+}
+
+.box-one {
+    height: 300px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 500px;
+}
+
+.box-one h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+
+.box-one p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.box-two {
+    height: 300px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 500px;
+
+}
+
+.box-two h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+
+.box-two p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.why-sction img {
+    width: 60px;
+}
+
+.box-third {
+    height: 300px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    /* Center both horizontally and vertically */
+}
+
+.box-third h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+
+.box-third p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 
 /* perfect place */
 .perfect-place {
